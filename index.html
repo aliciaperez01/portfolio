@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Portfolio Personal</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+ 
+    <header id="cabecera">
+
+        <h1>Alicia Pérez</h1>
+
+        <p>Desarrolladora Web</p>
+
+    </header>
+
+
+    <nav id="menu">
+
+        <ul>
+
+            <li>
+                <a href="#sobre-mi">Sobre mí</a>
+            </li>
+
+            <li>
+                <a href="#habilidades">Habilidades</a>
+            </li>
+
+            <li>
+                <a href="#proyectos">Proyectos</a>
+            </li>
+
+            <li>
+                <a href="#experiencia">Experiencia</a>
+            </li>
+
+            <li>
+                <a href="#contacto">Contacto</a>
+            </li>
+
+        </ul>
+
+    </nav>
+
+
+    <main id="contenido">
+
+
+        <!-- SOBRE MÍ -->
+
+        <section id="sobre-mi">
+
+            <h2>Sobre mí</h2>
+
+            <p>
+                Soy una persona interesada en el desarrollo web y actualmente
+                estoy dando mis primeros pasos en este mundo. Me gusta aprender
+                creando proyectos y experimentar con HTML y CSS para mejorar
+                mis habilidades.
+            </p>
+
+        </section>
+
+
+        <section id="habilidades">
+
+            <h2>Mis habilidades</h2>
+
+            <div class="habilidades">
+
+                <article class="habilidad">
+
+                    <h3>HTML</h3>
+
+                    <p>
+                        Estructura y contenido de páginas web.
+                    </p>
+
+                </article>
+
+
+                <article class="habilidad">
+
+                    <h3>CSS</h3>
+
+                    <p>
+                        Diseño, estilos y maquetación web.
+                    </p>
+
+                </article>
+
+
+                <article class="habilidad">
+
+                    <h3>Responsive Design</h3>
+
+                    <p>
+                        Adaptación de páginas a diferentes dispositivos.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <section id="proyectos">
+
+            <h2>Mis proyectos</h2>
+
+            <ul class="proyectos">
+
+                <li class="proyecto">
+
+                    <span class="estado">
+                        En progreso
+                    </span>
+
+                    <h3>Portfolio personal</h3>
+
+                    <p>
+                        Mi primer proyecto web realizado durante
+                        mi formación en desarrollo web.
+                    </p>
+
+                </li>
+
+
+                <li class="proyecto pendiente">
+
+                    <span class="estado">
+                        Pendiente
+                    </span>
+
+                    <h3>Próximo proyecto</h3>
+
+                    <p>
+                        Próximamente añadiré aquí un nuevo proyecto
+                        realizado durante mi aprendizaje.
+                    </p>
+
+                </li>
+
+
+                <li class="proyecto pendiente">
+
+                    <span class="estado">
+                        Pendiente
+                    </span>
+
+                    <h3>Próximo proyecto</h3>
+
+                    <p>
+                        Espacio reservado para futuros proyectos.
+                    </p>
+
+                </li>
+
+            </ul>
+
+        </section>
+
+
+        <section id="experiencia">
+
+            <h2>Experiencia</h2>
+
+            <div class="experiencia">
+
+                <article class="experiencia-item">
+
+                    <span class="experiencia-fecha">
+                        2026 - Actualmente
+                    </span>
+
+                    <h3>Formación en desarrollo web</h3>
+
+                    <p>
+                        Actualmente estoy aprendiendo desarrollo web,
+                        comenzando por HTML y CSS y desarrollando mis
+                        primeros proyectos personales.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+        <section id="contacto">
+
+            <h2>Contacto</h2>
+
+            <p>
+                ¿Tienes alguna pregunta o quieres trabajar conmigo?
+                Escríbeme.
+            </p>
+
+
+            <form>
+
+                <label for="nombre">
+                    Nombre
+                </label>
+
+                <input
+                    type="text"
+                    id="nombre"
+                    name="nombre"
+                    placeholder="Tu nombre"
+                    required
+                >
+
+
+                <label for="email">
+                    Correo electrónico
+                </label>
+
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="tu@email.com"
+                    required
+                >
+
+
+                <label for="mensaje">
+                    Mensaje
+                </label>
+
+                <textarea
+                    id="mensaje"
+                    name="mensaje"
+                    rows="6"
+                    placeholder="Escribe tu mensaje..."
+                    required
+                ></textarea>
+
+
+                <button type="submit">
+                    Enviar mensaje
+                </button>
+
+            </form>
+
+        </section>
+
+
+    </main>
+
+    <div class="switch-container">
+
+        <span aria-hidden="true">☀️</span>
+
+        <input
+            type="checkbox"
+            id="themeSwitch"
+        >
+
+        <label
+            for="themeSwitch"
+            class="switch"
+            aria-label="Cambiar entre modo claro y oscuro"
+        >
+
+            <span></span>
+
+        </label>
+
+        <span aria-hidden="true">🌙</span>
+
+    </div>
+
+
+    <div class="reproductor">
+
+        <p>🎵 Mort Garson - Plantasia </p>
+
+        <audio controls>
+
+            <source src="plantasia.mp3" type="audio/mpeg">
+
+        </audio>
+
+    </div>
+
+
+    <!-- FOOTER -->
+
+    <footer id="pie">
+
+        <p>
+            &copy; 2026 Alicia Pérez.
+            Todos los derechos reservados.
+        </p>
+
+    </footer>
+
+
+</body>
+
+</html>
+
+
